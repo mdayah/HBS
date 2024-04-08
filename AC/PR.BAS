@@ -30,9 +30,9 @@ DECLARE SUB IncomeTax (L1, L2)
 DECLARE SUB SocSecTax (L1, L2)
 DECLARE SUB Medicare (L1, L2)
 
-'$INCLUDE: '\WORK\AAD\BI\Library.REC'
-'$INCLUDE: '\WORK\AAD\BI\Accounts.REC'
-'$INCLUDE: '\WORK\AAD\BI\Employee.REC'
+'$INCLUDE: '..\BI\Library.REC'
+'$INCLUDE: '..\BI\Accounts.REC'
+'$INCLUDE: '..\BI\Employee.REC'
 
 	DIM SHARED Acc AS Accounts
 	DIM SHARED Emp AS Employee

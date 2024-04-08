@@ -21,7 +21,7 @@ DECLARE SUB mprMonth ()
 DECLARE SUB mprQuarter ()
 DECLARE SUB mprYear ()
 
-'$INCLUDE: '\WORK\AAD\BI\Library.REC'
+'$INCLUDE: '..\BI\Library.REC'
 
     ON ERROR GOTO Errors
     CLS : WIDTH 80, 50

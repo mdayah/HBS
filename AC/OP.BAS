@@ -2,7 +2,7 @@ DEFINT A-Z
 DECLARE SUB PR_Files ()
 DECLARE SUB CompShow ()
 
-'$INCLUDE: '\WORK\AAD\BI\Library.REC'
+'$INCLUDE: '..\BI\Library.REC'
 
 DEFSNG A-Z
 SUB CompShow ()
